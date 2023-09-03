@@ -1,0 +1,7 @@
+Steps to set up startup containers:
+Docker Compose
+Create a compose.yaml file
+add a .service file in system (# /etc/systemd/system/) with configuration
+use command -systemctl enable (.servicename)
+Container should run at startup
+
